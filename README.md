@@ -18,7 +18,12 @@ End the program
  # Program to find the inverse of a matrix.
  # Developed by:SANJAI S
  # Register Number:23013614
- ![Screenshot 2023-12-21 191109](https://github.com/Sanjaichitra/INVERSE-OF-A-MATRIX/assets/144870518/b113913c-c032-48c3-9c6e-8d0848511ffd)
+ ~~~
+import numpy as np
+A = np.array([[6,2,3],[3,1,1],[10,3,4]])
+result = np.linalg.inv(A)
+print(result)
+~~~
 
 ## Output:
 ![Screenshot 2023-12-16 152832](https://github.com/Sanjaichitra/INVERSE-OF-A-MATRIX/assets/144870518/1e4fc02b-4490-4739-8377-798ebad817de)
